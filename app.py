@@ -108,4 +108,4 @@ with table_col:
         {'weight_lbs': "{:,.2f}", 'scheduled_date': lambda t: t.strftime("%Y-%m-%d")}
     )
     
-    st.dataframe(styled_df, use_container_width=True, hide_index=True, height=400)
+    st.dataframe(styled_df, width=True, hide_index=True, height=400)
